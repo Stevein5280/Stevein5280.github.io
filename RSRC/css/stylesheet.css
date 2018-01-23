@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Global Styles - Tea's */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Main Content */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Content */
+
+#mission {
+  height: 700px;
+  background-image: url();
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+/* Tea Content */
+
+/* Locations Content */
+
+/* Contact Content */
+
+
+/*  */
